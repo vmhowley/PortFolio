@@ -1,15 +1,21 @@
-import { Code2, Database, Cloud, Box, Braces, FileCode, Server, Container } from 'lucide-react';
+import { Atom, Braces, Cloud, Code2, Container, Database, FileCode, Github, Server } from 'lucide-react';
 
 const TechStack = () => {
   const technologies = [
-    { name: 'React', icon: Code2, color: 'from-cyan-400 to-cyan-600' },
-    { name: 'Next.js', icon: Braces, color: 'from-slate-300 to-slate-500' },
+    { name: 'React', icon: Atom, color: 'from-cyan-400 to-cyan-600' },
+    { name: 'ReactNative', icon: Atom, color: 'from-green-400 to-cyan-600' },
+    { name: 'Rpgle', icon: Server, color: 'from-slate-300 to-slate-500' },
     { name: 'TypeScript', icon: FileCode, color: 'from-blue-400 to-blue-600' },
-    { name: 'Node.js', icon: Server, color: 'from-green-400 to-green-600' },
+    { name: 'Node.js', icon: Braces, color: 'from-green-400 to-green-600' },
     { name: 'Python', icon: Code2, color: 'from-yellow-400 to-blue-500' },
     { name: 'PostgreSQL', icon: Database, color: 'from-blue-500 to-blue-700' },
     { name: 'Docker', icon: Container, color: 'from-blue-400 to-cyan-500' },
     { name: 'AWS', icon: Cloud, color: 'from-orange-400 to-orange-600' },
+    { name: 'GitHub', icon: Github, color: 'from-orange-400 to-orange-600' },
+    { name: 'Firestore', icon: Cloud, color: 'from-yellow-400 via-orange-500 to-red-600' },
+    { name: 'Supabase', icon: Cloud, color: 'from-green-400 to-green-600' },
+    { name: 'Tailwind', icon: Cloud, color: 'from-yellow-400 via-orange-500 to-red-600' },
+
   ];
 
   return (
